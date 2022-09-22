@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[357],{769:e=>{e.exports=JSON.parse('{"title":"Customization","slug":"/category/customization","permalink":"/docs/category/customization","navigation":{"previous":{"title":"First-time usage","permalink":"/docs/first-time-usage"},"next":{"title":"Config.yml","permalink":"/docs/config/"}}}')}}]);
