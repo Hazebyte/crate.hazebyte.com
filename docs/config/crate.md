@@ -178,6 +178,12 @@ display:(diamond_sword 1 sharpness:1 knockback:1 unbreakable:true flag:HIDE_UNBR
 display:(diamond_sword:100 1)
 ```
 
+**Stone with multiple lore lines**
+
+```yml
+display:(stone 1 lore:Line_1|Line_2)'
+```
+
 [**Minecraft Head:**](https://github.com/Hazebyte/CrateReloaded/issues/97)
 
 ```yml
@@ -365,7 +371,9 @@ a minimum/maximum reward where it is possible to give multiple rewards but only 
 given once. This means that each reward line can be **rewarded only once per opening** but
 may be rewarded multiple times if they activate the same crate or key.
 
-!> If you are looking for rewards that are given only once, take a look at permission-based rewards.
+::info
+If you are looking for rewards that are given only once, take a look at permission-based rewards.
+:::
 
 In the following example, this crate will give the player the following rewards: _one dirt, one diamond, and one iron_.
 Each reward is unique per crate opening.
