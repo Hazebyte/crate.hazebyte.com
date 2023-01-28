@@ -37,4 +37,4 @@ The premium version will have all the features of the free version including a s
 3. Priority Feature Requests
 4. Custom Model Data Support
 5. Fast updates for any issues and features
-6. NBT (Temporarily removed)
+6. NBT
