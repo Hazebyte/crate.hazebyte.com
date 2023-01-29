@@ -125,11 +125,11 @@ The **Item Parser** is how the plugin figures out what item to take or replace. 
 **Template**
 
 ```YML
-display:(material:durability amount [OPTIONS])
+display:(material amount [OPTIONS])
 ```
 
 ```YML
-display:(material:durability amount name:myName lore:lore1|lore2 skull:base64 color:r,g,b effect:haste power:1 duration:30 splash:true unbreakable:true glow:true hide:true)
+display:(material amount name:myName lore:lore1|lore2 skull:base64 color:r,g,b effect:haste power:1 duration:30 splash:true unbreakable:true glow:true hide:true)
 ```
 
 > For simplicity, we use a near identical version of [EssentialsX](https://www.spigotmc.org/resources/essentialsx.9089/) item parser
@@ -151,6 +151,8 @@ display:(material:durability amount name:myName lore:lore1|lore2 skull:base64 co
 | unbreakable | Boolean            |
 | glow        | Boolean            |
 | hide        | Boolean            |
+| durability  | Short              |
+| custommodeldata  | Integer              |
 
 #### Examples
 
@@ -194,7 +196,13 @@ display:(player_head 1 name:&aNotch player:notch)
 **Custom Model Data:**
 
 ```
-display:(diamond_sword{CustomModelData:1001} 1)
+display:(diamond_sword 1 custommodeldata:1)
+```
+
+**NBT**
+
+```
+display:(diamond_sword 1 {PotionData:1})
 ```
 
 _Flags_
