@@ -177,7 +177,7 @@ display:(diamond_sword 1 sharpness:1 knockback:1 unbreakable:true flag:HIDE_UNBR
 **Sword with durability:**
 
 ```yml
-display:(diamond_sword:100 1)
+display:(diamond_sword 1 durability:100)
 ```
 
 **Stone with multiple lore lines**
