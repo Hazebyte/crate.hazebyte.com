@@ -205,7 +205,7 @@ display:(diamond_sword 1 custommodeldata:1)
 display:(diamond_sword 1 {PotionData:1})
 ```
 
-_Flags_
+**Flags**
 
 | **Name**              |
 | --------------------- |
@@ -220,7 +220,7 @@ _Flags_
 display:(GOLD_RECORD 1 name:&4Close! flag:HIDE_POTION_EFFECTS)
 ```
 
-_Leather Armor Dye_
+**Leather Armor Dye**
 
 ```yml
 display:(leather_chestplate 1 color:0,0,0)
