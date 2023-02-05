@@ -19,7 +19,7 @@ This page will explain each section key of the default crate.yml.
 
 ```YML
 FoodKey:
-    type: KEYCRATE
+    type: KEY
     ...
 ```
 
