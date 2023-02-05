@@ -7,7 +7,6 @@ To find out how to apply enchantments, click [here](../config/crate#examples)
 
 | Name                     | Alternate Name           |
 | ------------------------ | ------------------------ |
-| unbreaking               | DURABILITY               |
 | environmental_protection | PROTECTION_ENVIRONMENTAL |
 | fire_protection          | PROTECTION_FIRE          |
 | fall_protection          | PROTECTION_FALL          |
