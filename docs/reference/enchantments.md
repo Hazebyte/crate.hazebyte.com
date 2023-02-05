@@ -7,7 +7,6 @@ To find out how to apply enchantments, click [here](../config/crate#examples)
 
 | Name                     | Alternate Name           |
 | ------------------------ | ------------------------ |
-| unbreaking               | DURABILITY               |
 | environmental_protection | PROTECTION_ENVIRONMENTAL |
 | fire_protection          | PROTECTION_FIRE          |
 | fall_protection          | PROTECTION_FALL          |
@@ -27,7 +26,6 @@ To find out how to apply enchantments, click [here](../config/crate#examples)
 | sweeping_edge            | SWEEPING_EDGE            |
 | efficiency               | DIG_SPEED                |
 | silk_touch               | SILK_TOUCH               |
-| durability               | DURABILITY               |
 | fortune                  | LOOT_BONUS_BLOCKS        |
 | power                    | ARROW_DAMAGE             |
 | punch                    | ARROW_KNOCKBACK          |
