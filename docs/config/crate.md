@@ -227,6 +227,12 @@ display:(leather_chestplate 1 color:0,0,0)
 display:(leather_leggings 1 color:255,255,255)
 ```
 
+**Custom Variable**
+
+```yml
+item:(diamond_sword 1 {sword_enchant})
+```
+
 ### Effects
 
 This section defines the effects and sounds that the crate may have.
