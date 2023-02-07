@@ -57,6 +57,15 @@ How long a player has to wait between actions.
 cooldown: 1.0
 ```
 
+## Custom Variables
+
+Define custom variables which can be used in your crate file, eg to use the following place `{sword_enchant}` into a crate reward to give the sharpness 1 and knockback 1 enchants.
+
+```YML
+custom-variables:
+  '{sword_enchant}': 'sharpness:1 knockback:1'
+```
+
 ## Hologram Provider
 
 Change what plugin is used for holograms. Supported plugins are [`CMI`](https://www.spigotmc.org/resources/cmi-298-commands-insane-kits-portals-essentials-economy-mysql-sqlite-much-more.3742/?__cf_chl_tk=qeciDECk703nM57utNWdyBa5iv5RNYhXFtRjCDqCg7Y-1668999020-0-gaNycGzNDl) and [`HolographicDisplays`](https://dev.bukkit.org/projects/holographic-displays?__cf_chl_tk=cAE.5wb0zR3bHUbTSY8NFRRG_dqjOaeN_tgwrqR0ifA-1672706846-0-gaNycGzNEr0). CrateReloaded Pro also supports [`DecentHolograms`](https://www.spigotmc.org/resources/decentholograms-1-8-1-19-3-papi-support-no-dependencies.96927/)
