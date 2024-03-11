@@ -38,4 +38,4 @@ Nice, you have now set the crate and it will now function as a key crate
 
 # Customizing
 
-[You can now begin customizing the plugin!](config/general.md)
+[You can now begin customizing the plugin!](config/config.md)
