@@ -32,6 +32,7 @@ It is the same command to give a key and to give a crate.
 | **/cr set**       | `<crate>`                                    | cr.block.set    | Configures a block to handle crates                  |
 | **/cr remove**    | `<crate>`                                    | cr.block.remove | Removes the capability to handle crates from a block |
 | **/cr util item** |                                              | cr.util.item    | Returns the item string for the config to console    |
+| **/cr admin menu** |                                             | cr.admin.menu    | Opens an menu allowing admins to test crate and rewards    |
 
 ## NPCs
 
